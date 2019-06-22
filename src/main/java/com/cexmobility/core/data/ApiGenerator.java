@@ -1,6 +1,8 @@
 package com.cexmobility.core.data;
 
 
+import com.cexmobility.core.utils.data.LiveDataCallAdapterFactory;
+
 import java.util.concurrent.TimeUnit;
 
 import okhttp3.OkHttpClient;
@@ -52,6 +54,7 @@ public class ApiGenerator<T> {
         Retrofit.Builder builder = new Retrofit.Builder()
                 .baseUrl(url)
                 .addConverterFactory(GsonConverterFactory.create())
+                .addCallAdapterFactory(new LiveDataCallAdapterFactory())
                 .client(client);
         Retrofit retrofit = builder.build();
 
