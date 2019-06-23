@@ -1,4 +1,4 @@
-package com.cexmobility.core.utils.data;
+package com.cexmobility.core.data;
 
 import android.util.ArrayMap;
 

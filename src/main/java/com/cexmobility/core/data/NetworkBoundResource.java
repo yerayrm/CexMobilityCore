@@ -5,6 +5,8 @@ import androidx.annotation.WorkerThread;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MediatorLiveData;
 
+import com.cexmobility.core.data.api.ApiResponse;
+
 import timber.log.Timber;
 
 public abstract class NetworkBoundResource<ResultType, RequestType> {

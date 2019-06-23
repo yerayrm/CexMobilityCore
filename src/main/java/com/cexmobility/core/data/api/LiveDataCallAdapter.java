@@ -1,9 +1,7 @@
-package com.cexmobility.core.utils.data;
+package com.cexmobility.core.data.api;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
-
-import com.cexmobility.core.data.ApiResponse;
 
 import org.jetbrains.annotations.NotNull;
 

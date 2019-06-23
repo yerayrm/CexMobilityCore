@@ -1,4 +1,4 @@
-package com.cexmobility.core.data;
+package com.cexmobility.core.data.api;
 
 import androidx.annotation.Nullable;
 

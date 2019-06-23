@@ -1,4 +1,7 @@
-package com.cexmobility.core.data;
+package com.cexmobility.core.data.api;
+
+import com.cexmobility.core.data.GenericResponse;
+import com.cexmobility.core.data.Resource;
 
 import org.jetbrains.annotations.NotNull;
 

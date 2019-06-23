@@ -1,7 +1,5 @@
-package com.cexmobility.core.data;
+package com.cexmobility.core.data.api;
 
-
-import com.cexmobility.core.utils.data.LiveDataCallAdapterFactory;
 
 import java.util.concurrent.TimeUnit;
 
