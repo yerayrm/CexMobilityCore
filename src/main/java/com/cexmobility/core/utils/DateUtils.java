@@ -12,6 +12,7 @@ public class DateUtils {
     public static final String FORMAT_DATE_DATE_AND_TIME = "yyyy-MM-dd'T'HH:mm:ss";
     public static final String FORMAT_DATE_WITH_SCORE = "dd-MM-yyyy";
     public static final String FORMAT_DATE_WITH_BARS = "dd/MM/yyyy";
+    public static final String FORMAT_DATE_AND_HOUR_WITH_BARS = "dd/MM/yyyy HH:00";
     public static final String FORMAT_HOUR = "HH:mm";
 
 
